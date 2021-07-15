@@ -70,6 +70,22 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
             
         }
     }
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        
+        guard let meTableViewCell = cell as? MeTableViewCell else {
+            
+            guard let otherPeopleTableViewCell = cell as? OtherPeopleTableViewCell else { return }
+            otherPeopleTableViewCell.layoutIfNeeded()
+            otherPeopleTableViewCell.otherPeopleChatBubble()
+            
+            return
+            
+        }
+        
+        meTableViewCell.layoutIfNeeded()
+        meTableViewCell.myChatBubble()
+        
+    }
     
     
     

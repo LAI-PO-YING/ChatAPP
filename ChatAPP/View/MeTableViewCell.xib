@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MeTableViewCell" rowHeight="153" id="KGk-i7-Jjw" customClass="MeTableViewCell" customModule="ChatAPP" customModuleProvider="target">
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="MeTableViewCell" rowHeight="153" id="KGk-i7-Jjw" customClass="MeTableViewCell" customModule="ChatAPP" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="611" height="153"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
@@ -31,10 +31,10 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5bK-7N-Dj1">
-                        <rect key="frame" x="458.5" y="31" width="82.5" height="43"/>
+                        <rect key="frame" x="468.5" y="31" width="72.5" height="43"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Text" translatesAutoresizingMaskIntoConstraints="NO" id="9ch-ZL-UYw">
-                                <rect key="frame" x="15" y="5" width="37.5" height="33"/>
+                                <rect key="frame" x="5" y="5" width="37.5" height="33"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -43,12 +43,13 @@
                         </subviews>
                         <constraints>
                             <constraint firstItem="9ch-ZL-UYw" firstAttribute="top" secondItem="5bK-7N-Dj1" secondAttribute="top" constant="5" id="QJ0-Xi-e9S"/>
-                            <constraint firstItem="9ch-ZL-UYw" firstAttribute="leading" secondItem="5bK-7N-Dj1" secondAttribute="leading" constant="15" id="Rwb-nz-ya1"/>
+                            <constraint firstItem="9ch-ZL-UYw" firstAttribute="leading" secondItem="5bK-7N-Dj1" secondAttribute="leading" constant="5" id="Rwb-nz-ya1"/>
                             <constraint firstItem="9ch-ZL-UYw" firstAttribute="height" secondItem="5bK-7N-Dj1" secondAttribute="height" constant="-10" id="dAb-oC-bCa"/>
                             <constraint firstAttribute="trailing" secondItem="9ch-ZL-UYw" secondAttribute="trailing" constant="30" id="e8Q-6t-7U5"/>
                         </constraints>
                     </view>
                 </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 <constraints>
                     <constraint firstItem="uTr-cp-ciD" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="A9X-PU-JZy"/>
                     <constraint firstAttribute="trailing" secondItem="uTr-cp-ciD" secondAttribute="trailing" constant="15" id="Hvi-bG-kO3"/>
@@ -62,6 +63,7 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <connections>
                 <outlet property="meContainerView" destination="5bK-7N-Dj1" id="RgJ-Mn-8u5"/>
                 <outlet property="meImageView" destination="uTr-cp-ciD" id="nUp-OM-Jpi"/>
