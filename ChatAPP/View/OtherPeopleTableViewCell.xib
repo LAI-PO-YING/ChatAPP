@@ -44,8 +44,8 @@
                         <constraints>
                             <constraint firstItem="OVf-sn-2qc" firstAttribute="leading" secondItem="rIo-JG-ios" secondAttribute="leading" constant="30" id="58p-hX-GPw"/>
                             <constraint firstItem="OVf-sn-2qc" firstAttribute="top" secondItem="rIo-JG-ios" secondAttribute="top" constant="5" id="7wa-7a-dYR"/>
+                            <constraint firstItem="OVf-sn-2qc" firstAttribute="height" secondItem="rIo-JG-ios" secondAttribute="height" constant="-10" id="IVc-lm-RCj"/>
                             <constraint firstAttribute="trailing" secondItem="OVf-sn-2qc" secondAttribute="trailing" constant="5" id="gMI-Qo-mJg"/>
-                            <constraint firstItem="OVf-sn-2qc" firstAttribute="height" secondItem="rIo-JG-ios" secondAttribute="height" constant="-10" id="jSv-hM-nnz"/>
                         </constraints>
                     </view>
                 </subviews>
