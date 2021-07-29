@@ -27,6 +27,7 @@ class MeTableViewCell: UITableViewCell {
     
     func myChatBubble() {
         
+        
         // 對話框路徑
         let chatBubblePath = UIBezierPath()
         chatBubblePath.move(to: CGPoint(x: 5, y: 0))
